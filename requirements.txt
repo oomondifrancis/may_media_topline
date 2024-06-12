@@ -46,3 +46,4 @@ typing_extensions==4.12.1
 tzdata==2024.1
 urllib3==2.2.1
 watchdog==4.0.1
+plotly==5.22.0

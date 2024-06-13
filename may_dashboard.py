@@ -74,7 +74,7 @@ st.markdown(
 )
 
 # Add logo to the sidebar above the title
-st.sidebar.image("logo.jpeg", width=500)  # Replace 'your_logo.png' with the path to your logo file
+st.sidebar.image("logo.jpeg", width=300)  # Replace 'your_logo.png' with the path to your logo file
 
 st.sidebar.title("Top Line Summary")
 st.sidebar.markdown("""
@@ -86,6 +86,7 @@ This extensive coverage underscores the growing recognition of UNICEF's efforts 
 """, unsafe_allow_html=True)
 
 # Add tagline
+st.sidebar.image("farsight.jpeg", width=200)  # Replace 'your_logo.png' with the path to your logo file
 st.sidebar.markdown("**Developed by Farsight Africa Group**", unsafe_allow_html=True)
 
 # Display Child-related Issues Most Prominent in the Media

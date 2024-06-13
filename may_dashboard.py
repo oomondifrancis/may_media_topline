@@ -74,7 +74,7 @@ st.markdown(
 )
 
 # Add logo to the sidebar above the title
-#st.sidebar.image("logo.jpeg", width=500)  # Replace 'your_logo.png' with the path to your logo file
+st.sidebar.image("logo.jpeg", width=500)  # Replace 'your_logo.png' with the path to your logo file
 
 st.sidebar.title("Top Line Summary")
 st.sidebar.markdown("""
